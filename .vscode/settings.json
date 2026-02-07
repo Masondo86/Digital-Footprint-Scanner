@@ -1,5 +1,14 @@
 {
-    "json.schemaDownload.enable": true,
-    "workbench.colorTheme": "Default Light Modern",
-    "python.languageServer": "Default"
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  "json.schemaDownload.enable": true,
+  "python.languageServer": "Default"
 }
